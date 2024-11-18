@@ -1,7 +1,7 @@
 package logicaNegocio;
 
-public abstract class Leon extends Animal {
-    // TODO: Aquí va tu código
+public class Leon extends Animal {
+       private TipoHabitat habitat;
        public Leon() {
         this.habitat = TipoHabitat.TERRESTRE;
     }
